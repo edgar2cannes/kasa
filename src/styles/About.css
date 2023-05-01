@@ -7,7 +7,8 @@ body{
 } */
 .cover img{
    border-radius: 25px;
-   height: 250px;
+   height: 223px;
+   margin-bottom: 20px;
    
 }
 .desktop{
@@ -23,9 +24,7 @@ body{
     .container{
         margin: 20px 10px;
     }
-    .cover img{
-        height: 250px;
-    }
+    
     .Mobile{
         display: block;
     }

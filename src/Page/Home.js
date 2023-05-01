@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="cover">
+      <div className="coverHome">
         <p>Chez vous, partout et ailleurs</p>
         <img className="imgAccueil" src={imgHome} alt="paysage" />
       </div>

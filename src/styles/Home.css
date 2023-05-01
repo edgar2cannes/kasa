@@ -1,4 +1,4 @@
-.cover {
+.coverHome {
     display: flex;
     justify-content: center;
     margin: 20px 0;
@@ -6,12 +6,12 @@
   
   .imgAccueil {
     width: 100%;
-    height: 180px;
+    height: 100%;
     filter: contrast(0.5);
     border-radius: 15px;
   }
   
-  .cover p {
+  .coverHome p {
     font-family: "montserrat";
     font-weight: 500;
     position: absolute;
@@ -27,8 +27,9 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F6F6F6;
-    margin: 0 30px;
+    margin: 0 auto;
     border-radius: 15px;
+    max-width: 1024px;
   }
   
   .card {
@@ -65,9 +66,8 @@
     body {
       margin: 0 20px;
     }
-    .imgAccueil {
-      height: 100px;
-    }
+   
+    
     .listCard {
       background-color: white;
       margin: 0 0;
@@ -80,11 +80,14 @@
     .card b {
       width: 40%;
     }
-    .cover {
+    .coverHome {
       justify-content: flex-start;
+      height: 111px;
     }
-    .cover p {
-      font-size: 25px;
-      width: 50%;
+    .coverHome p {
+      font-size: 24px;
+      width: 60%;
+      transform: translate(10px, 10px);
+      
     }
   }
